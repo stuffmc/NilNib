@@ -1,0 +1,1 @@
+I stumbled accross initializing a UIViewController with a "nil" nibName which should use the name of the Class. This is where I discovered it is apparently not true for UITableViewController. Anybody has an explication?

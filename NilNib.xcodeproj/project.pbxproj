@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C567623141F7EF1007C3593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C567622141F7EF1007C3593 /* UIKit.framework */; };
+		4C567625141F7EF1007C3593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C567624141F7EF1007C3593 /* Foundation.framework */; };
+		4C567627141F7EF1007C3593 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C567626141F7EF1007C3593 /* CoreGraphics.framework */; };
+		4C56762D141F7EF1007C3593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C56762B141F7EF1007C3593 /* InfoPlist.strings */; };
+		4C56762F141F7EF1007C3593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C56762E141F7EF1007C3593 /* main.m */; };
+		4C567633141F7EF1007C3593 /* NilNibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C567632141F7EF1007C3593 /* NilNibAppDelegate.m */; };
+		4C567636141F7EF1007C3593 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C567634141F7EF1007C3593 /* MainWindow.xib */; };
+		4C56764E141F8062007C3593 /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C56764C141F8062007C3593 /* C.m */; };
+		4C56764F141F8062007C3593 /* C.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C56764D141F8062007C3593 /* C.xib */; };
+		4C567653141F83E9007C3593 /* T.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C567651141F83E9007C3593 /* T.m */; };
+		4C567654141F83E9007C3593 /* T.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C567652141F83E9007C3593 /* T.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C56761E141F7EF1007C3593 /* NilNib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NilNib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C567622141F7EF1007C3593 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C567624141F7EF1007C3593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C567626141F7EF1007C3593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C56762A141F7EF1007C3593 /* NilNib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NilNib-Info.plist"; sourceTree = "<group>"; };
+		4C56762C141F7EF1007C3593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C56762E141F7EF1007C3593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C567630141F7EF1007C3593 /* NilNib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NilNib-Prefix.pch"; sourceTree = "<group>"; };
+		4C567631141F7EF1007C3593 /* NilNibAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NilNibAppDelegate.h; sourceTree = "<group>"; };
+		4C567632141F7EF1007C3593 /* NilNibAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NilNibAppDelegate.m; sourceTree = "<group>"; };
+		4C567635141F7EF1007C3593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C56764B141F8062007C3593 /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
+		4C56764C141F8062007C3593 /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
+		4C56764D141F8062007C3593 /* C.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C.xib; sourceTree = "<group>"; };
+		4C567650141F83E9007C3593 /* T.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T.h; sourceTree = "<group>"; };
+		4C567651141F83E9007C3593 /* T.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T.m; sourceTree = "<group>"; };
+		4C567652141F83E9007C3593 /* T.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = T.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C56761B141F7EF1007C3593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C567623141F7EF1007C3593 /* UIKit.framework in Frameworks */,
+				4C567625141F7EF1007C3593 /* Foundation.framework in Frameworks */,
+				4C567627141F7EF1007C3593 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C567613141F7EF1007C3593 = {
+			isa = PBXGroup;
+			children = (
+				4C567628141F7EF1007C3593 /* NilNib */,
+				4C567621141F7EF1007C3593 /* Frameworks */,
+				4C56761F141F7EF1007C3593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C56761F141F7EF1007C3593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C56761E141F7EF1007C3593 /* NilNib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C567621141F7EF1007C3593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C567622141F7EF1007C3593 /* UIKit.framework */,
+				4C567624141F7EF1007C3593 /* Foundation.framework */,
+				4C567626141F7EF1007C3593 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C567628141F7EF1007C3593 /* NilNib */ = {
+			isa = PBXGroup;
+			children = (
+				4C567631141F7EF1007C3593 /* NilNibAppDelegate.h */,
+				4C567632141F7EF1007C3593 /* NilNibAppDelegate.m */,
+				4C567634141F7EF1007C3593 /* MainWindow.xib */,
+				4C56764B141F8062007C3593 /* C.h */,
+				4C56764C141F8062007C3593 /* C.m */,
+				4C56764D141F8062007C3593 /* C.xib */,
+				4C567650141F83E9007C3593 /* T.h */,
+				4C567651141F83E9007C3593 /* T.m */,
+				4C567652141F83E9007C3593 /* T.xib */,
+				4C567629141F7EF1007C3593 /* Supporting Files */,
+			);
+			path = NilNib;
+			sourceTree = "<group>";
+		};
+		4C567629141F7EF1007C3593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C56762A141F7EF1007C3593 /* NilNib-Info.plist */,
+				4C56762B141F7EF1007C3593 /* InfoPlist.strings */,
+				4C56762E141F7EF1007C3593 /* main.m */,
+				4C567630141F7EF1007C3593 /* NilNib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C56761D141F7EF1007C3593 /* NilNib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C567639141F7EF1007C3593 /* Build configuration list for PBXNativeTarget "NilNib" */;
+			buildPhases = (
+				4C56761A141F7EF1007C3593 /* Sources */,
+				4C56761B141F7EF1007C3593 /* Frameworks */,
+				4C56761C141F7EF1007C3593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NilNib;
+			productName = NilNib;
+			productReference = 4C56761E141F7EF1007C3593 /* NilNib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C567615141F7EF1007C3593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Pomcast.net;
+			};
+			buildConfigurationList = 4C567618141F7EF1007C3593 /* Build configuration list for PBXProject "NilNib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C567613141F7EF1007C3593;
+			productRefGroup = 4C56761F141F7EF1007C3593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C56761D141F7EF1007C3593 /* NilNib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C56761C141F7EF1007C3593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C56762D141F7EF1007C3593 /* InfoPlist.strings in Resources */,
+				4C567636141F7EF1007C3593 /* MainWindow.xib in Resources */,
+				4C56764F141F8062007C3593 /* C.xib in Resources */,
+				4C567654141F83E9007C3593 /* T.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C56761A141F7EF1007C3593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C56762F141F7EF1007C3593 /* main.m in Sources */,
+				4C567633141F7EF1007C3593 /* NilNibAppDelegate.m in Sources */,
+				4C56764E141F8062007C3593 /* C.m in Sources */,
+				4C567653141F83E9007C3593 /* T.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C56762B141F7EF1007C3593 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C56762C141F7EF1007C3593 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C567634141F7EF1007C3593 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C567635141F7EF1007C3593 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C567637141F7EF1007C3593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C567638141F7EF1007C3593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C56763A141F7EF1007C3593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NilNib/NilNib-Prefix.pch";
+				INFOPLIST_FILE = "NilNib/NilNib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C56763B141F7EF1007C3593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NilNib/NilNib-Prefix.pch";
+				INFOPLIST_FILE = "NilNib/NilNib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C567618141F7EF1007C3593 /* Build configuration list for PBXProject "NilNib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C567637141F7EF1007C3593 /* Debug */,
+				4C567638141F7EF1007C3593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C567639141F7EF1007C3593 /* Build configuration list for PBXNativeTarget "NilNib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C56763A141F7EF1007C3593 /* Debug */,
+				4C56763B141F7EF1007C3593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C567615141F7EF1007C3593 /* Project object */;
+}
